@@ -26,24 +26,30 @@ class DetailedView extends StatelessWidget {
       ),
       
       body: 
+      
 
       Stack(
     children: <Widget>[
                   Image.asset(assetpath, height: MediaQuery.of(context).size.height * 1.0, width: double.infinity, fit: BoxFit.cover,),
 
-         Column(
+              Container(padding: EdgeInsets.fromLTRB(30, 0, 0, 0),
+              child:   Column(
            mainAxisAlignment: MainAxisAlignment.center,
            crossAxisAlignment: CrossAxisAlignment.start,
            
             
         children: <Widget>[
-          Text(city),
-          Text(description)
+          Text(city, style: TextStyle(color: Color.fromRGBO(255, 255, 255, 1.0),
+          fontSize: 48, fontWeight: FontWeight.normal), textAlign: TextAlign.center,),
+          Text(description, style: TextStyle(color: Color.fromRGBO(255, 255, 255, 1.0),
+          fontSize: 24, fontWeight: FontWeight.normal,), textAlign: TextAlign.center, )
           
           
 
           
-        ])]));
+        ]) 
+              )    
+       ]));
       
     
 
