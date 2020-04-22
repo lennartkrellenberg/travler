@@ -38,28 +38,28 @@ class _MyHomePageState extends State<MyHomePage> {
         body: ListView(
           padding: const EdgeInsets.fromLTRB(_hPad, 20, 10, _hPad),
           children: <Widget>[
-            ListItem("assets/images/amsterdam.jpg", "Amsterdam",
+            ListItem("assets/images/amsterdam.jpeg", "Amsterdam",
                 "City in Netherlands", 4),
-            ListItem("assets/images/barcelona.jpg", "Barcelona",
+            ListItem("assets/images/madrid.jpeg", "Madrid",
                 "City in Spain", 3),
-            ListItem("assets/images/berlin.jpg", "Berlin",
+            ListItem("assets/images/hamburg-hafencity.jpg", "Hamburg",
                 "City in Germany", 4),
             ListItem("assets/images/chicago.jpeg", "Chicago",
                 "City in America", 4),
-            ListItem("assets/images/los_angeles.jpg", "Los Angeles",
+            ListItem("assets/images/los_angeles.jpeg", "Los Angeles",
                 "City in America", 5),
-            ListItem("assets/images/miami.jpg", "Miami",
+            ListItem("assets/images/miami.jpeg", "Miami",
                 "City in America", 5),
-            ListItem("assets/images/new_york.jpg", "New York",
+            ListItem("assets/images/new_york.jpeg", "New York",
                 "City in America", 5),
-            ListItem("assets/images/san_fransisco.jpg", "San Fransisco",
+            ListItem("assets/images/san_fransisco.jpeg", "San Fransisco",
                 "City in America", 5),
-            ListItem("assets/images/toronto.jpg", "Toronto",
+            ListItem("assets/images/toronto.jpeg", "Toronto",
                 "City in Canada", 4.5),
-            ListItem("assets/images/washington.png", "Washington",
+            ListItem("assets/images/seattle.jpeg", "Seattle",
                 "City in America", 4),
             ListItem(
-                "assets/images/phuket.jpg", "Phuket", "City in Thailand", 4)
+                "assets/images/frankfurt.jpeg", "Frankfurt", "City in Germany", 4)
           ],
         ));
   }
